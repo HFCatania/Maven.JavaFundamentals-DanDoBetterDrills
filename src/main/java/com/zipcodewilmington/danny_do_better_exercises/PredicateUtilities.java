@@ -1,5 +1,7 @@
 package com.zipcodewilmington.danny_do_better_exercises;
 
+import javax.swing.text.StyledEditorKit;
+
 /**
  * Created by dan on 6/14/17.
  */
@@ -10,7 +12,7 @@ public class PredicateUtilities {
      * @return true if `x` is greater than `y`
      */
     public Boolean isGreaterThan(int x, int y) {
-        return null;
+       return x>y;
     }
 
     /**
@@ -19,7 +21,10 @@ public class PredicateUtilities {
      * @return true if `x` is less than `y`
      */
     public Boolean isLessThan(int x, int y) {
-        return null;
+
+
+        return x<y;
+
     }
 
     /**
@@ -27,8 +32,8 @@ public class PredicateUtilities {
      * @param y
      * @return true if `x` is greater than or equal to `y`
      */
-    public Boolean isGreaterThanOrEqualTo(int x, int y) {
-        return null;
+    public Boolean isGreaterThanOrEqualTo(int x, int y){
+        return x>=y;
     }
 
     /**
@@ -37,7 +42,7 @@ public class PredicateUtilities {
      * @return true if `x` is less than or equal to `y`
      */
     public Boolean isLessThanOrEqualTo(int x, int y) {
-        return null;
+        return x<=y;
     }
 
 
@@ -45,14 +50,14 @@ public class PredicateUtilities {
      * @return true
      */
     public Boolean returnTrue() {
-        return null;
+        return true;
     }
 
     /**
      * @return false
      */
     public Boolean returnFalse() {
-        return null;
+        return false;
     }
 
 }

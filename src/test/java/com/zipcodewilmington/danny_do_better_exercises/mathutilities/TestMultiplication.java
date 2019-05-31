@@ -56,6 +56,7 @@ public class TestMultiplication {
         byte actualByte = mathUtils.multiply(multiplicand, multiplier);
         // : Then
         assertEquals(expectedByte, actualByte);
+        //Write better tests please and thank you
     }
     @Test
     public void testFloatMultiplication() {

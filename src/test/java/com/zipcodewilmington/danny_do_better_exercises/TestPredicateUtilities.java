@@ -106,7 +106,7 @@ public class TestPredicateUtilities {
         boolean outcome = predicateUtilities.isLessThanOrEqualTo(greaterValue, lesserValue);
 
         // : Then
-        assertFalse(outcome);
+        assertFalse(outcome); //int values should be reversed for outcome to be false
     }
 
     @Test
